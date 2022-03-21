@@ -13,5 +13,5 @@ struct Contants {
     static var API_KEY = ""
     static var CHANNEL_ID = "UC2D6eRvCeMtcF5OGHf1-trw"
     static var API_URL = "https://youtube.googleapis.com/youtube/v3/playlists?part=snippet&channelId=\(Contants.CHANNEL_ID)&key=\(Contants.API_KEY)"
-    
+    static var VIDEOCELL_ID = "VideoCell"
 }
