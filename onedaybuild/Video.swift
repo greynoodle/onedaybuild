@@ -53,4 +53,5 @@ struct Video : Decodable {
         self.channelId = try snippetContainer.decode(String.self, forKey: .channelId)
         
     }
+    
 }
